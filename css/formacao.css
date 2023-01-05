@@ -122,7 +122,11 @@
 .cursos li {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+
+.idiomas li {
+  margin-bottom: 0.4rem;
 }
 
 @media (max-width: 800px) {
