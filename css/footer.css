@@ -26,6 +26,27 @@
 .footer-contato li a {
   color: #ffffff;
 }
+.footer-contato li .whats {
+  position: fixed;
+  width: 45px;
+  height: 45px;
+  bottom: 30px;
+  right: 30px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index: 1000;
+}
+.footer-contato li .whats:hover {
+  background-color: #fff;
+  color: #029e3b;
+  font-weight: 900;
+  box-shadow: 2px 2px 20px #5fe690;
+}
+
 .footer-copy {
   grid-column: 1/-1;
   font-size: 1.125rem;
@@ -39,5 +60,10 @@
   }
   .footer-contato li {
     font-size: 1.25rem;
+  }
+  .footer-contato li .whats {
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
   }
 }
