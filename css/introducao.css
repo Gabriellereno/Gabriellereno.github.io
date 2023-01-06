@@ -95,3 +95,24 @@
     left: 65px;
   }
 }
+@media (max-width: 450px) {
+  .introducao h1::before {
+    scale: 45%;
+    top: -35px;
+    left: 45px;
+  }
+}
+@media (max-width: 400px) {
+  .introducao h1::before {
+    scale: 45%;
+    top: -35px;
+    left: 27px;
+  }
+}
+@media (max-width: 350px) {
+  .introducao h1::before {
+    scale: 45%;
+    top: -35px;
+    left: 1px;
+  }
+}
